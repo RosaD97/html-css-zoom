@@ -54,9 +54,25 @@ Inizio main
  __________*/
 
 .bgutent{
-    height: calc(100vh - 160px);
+    min-height: calc(100vh - 160px);
     background-color: #000000;
+}
 
+.container{
+    justify-content: center;
+    gap: 10px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.mic{
+    position: absolute;
+
+}
+
+.container-cam{
+    position: static;
 }
 
 
